@@ -28,6 +28,7 @@ class Queue
     {
         if(this.rear==-1)
         {System.out.println("Queue Undeflow");
+         return -1;
         }
         else
             this.front=this.arr[0];
